@@ -52,7 +52,7 @@ function Newsfeed() {
                  {/* {popularTopics.map((topic) => (
                     <Chip 
                         label={topic}
-                        image={'https://avatars.dicebear.com/api/human/${topic}.svg'}
+                        image={`https://avatars.dicebear.com/api/human/${topic}.svg`}
                     />
                   ))} */}
               </div>

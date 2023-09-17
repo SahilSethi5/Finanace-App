@@ -7,7 +7,7 @@ function Header() {
     <div className="header__wrapper">
         {/* logo */}
         <div className="header__logo">
-            <img src ={Logo} width={25} />
+            <img src ={Logo} width={40} />
             
         </div>
         {/* search */}
