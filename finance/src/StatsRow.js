@@ -14,20 +14,22 @@ function StatsRow(props){
         .get()
         .then((querySnapshot) =>{
             if(!querySnapshot.empty){
-                
                 querySnapshot.array.forEach(function(doc) {
                     db.collection('myStocks')
                     .doc(doc.id)
                     .update({
                         shares: doc.data().shares+=1
                     })
-                    
                 });
             }else {
-                console.log("Not availble");
+                db.collection('myStocks')
+                .add({
+                    ticker: props.name,
+                    shares: 1
+                })
             }
         })
-        // console.log("buy", props.name);
+        console.log("buy", props.name);
     }
 
     return (
