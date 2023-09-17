@@ -18,6 +18,35 @@
 
 }
 
+.newsfeed__buying__section {
+    color: rgb(233, 236, 238);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #3b4754;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 60px;
+}
+
+.newsfeed__Market__section {
+    color: aliceblue;
+    margin-top: 60px;
+
+}
+
+.newsfeed__market__box {
+    height: 10vh;
+    padding: 20px;
+    border: 1px solid #3b4754;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.newsfeed__market__box p {
+    color: #7b858A;
+    font-size: 15px;
+    text-transform: 700;
+    margin-bottom: 8px;
+}
 
 .newsfeed__chartSection {
 
@@ -31,3 +60,17 @@
     width: 100%;
 
 }
+
+.Newfeed__populars__section {
+    margin-top: 60px;
+}
+
+
+.newsfeed__popularlists__intro {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
