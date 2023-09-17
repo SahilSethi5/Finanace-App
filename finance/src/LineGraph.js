@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Line } from "react-chartjs-2";
+import {Line} from "react-chartjs-2";
 import './LineGraph.css'
 
 function LineGraph(){
@@ -49,10 +49,10 @@ function LineGraph(){
                     datasets: [
                         {
                             type: "line",
-                            data: graphData,
+                            data: data,
                             backgroundColor: "Grey",
                             borderColor: "#5AC53F",
-                            borderWidth: 2.5,
+                            borderWidth: 2,
                             pointBoarderColor: 'rgba(0, 0, 0, 0)',
                             pointBackgroundColor: 'rgba(0, 0, 0, 0)',
                             pointHoverBackgroundColor: '#5AC53F',
