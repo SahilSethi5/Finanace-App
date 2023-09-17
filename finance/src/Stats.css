@@ -1,0 +1,30 @@
+.stats {
+
+    flex: 0.32;
+    flex-direction:column;
+    padding: 0px 30px 30px 30px;
+    color:aliceblue;
+    display: flex;
+
+}
+.stats__container {
+
+    flex-direction: column;
+    flex: 1;
+    background-color: lightslategray;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+
+}
+
+.stats__header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 20px 20px 10px 20px;
+    font-weight: 500;
+}

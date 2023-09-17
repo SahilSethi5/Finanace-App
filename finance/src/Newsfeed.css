@@ -1,0 +1,33 @@
+.newsfeed {
+    border: 1px solid orange;
+    flex: 0.7;
+    color: whitesmoke;
+}
+
+.newsfeed__portfolio {
+    text-align: left;
+}
+.newsfeed__portfolio h1{
+    margin: 0;
+}
+
+.newsfeed__portfolio p {
+    margin-top: 0;
+    flex: 0.7;
+    color: white;
+
+}
+
+
+.newsfeed__chartSection {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newsfeed__chart {
+
+    width: 100%;
+
+}
